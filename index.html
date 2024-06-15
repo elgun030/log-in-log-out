@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex items-center text-center flex-col justify-center h-[100vh]">
+    <div>
+        <div id="box" class="w-[300px] h-[300px] bg-blue-700 flex items-center justify-center flex-col text-center gap-5">
+            <div>
+                <input id="text" class="w-[70%] h-[40px] border-transparent rounded-lg" type="username" placeholder="user name">
+                <input id="password" class="w-[70%] h-[40px] border-transparent rounded-lg" type="password" placeholder="password">
+                <button id="btn" class="w-[70%] h-[40px] border border-transparent bg-black text-white rounded-lg">Login</button>
+            </div>
+        </div>
+
+        <div id="box-2" class="w-[300px] h-[300px] bg-green-400 flex items-center justify-center flex-col text-center gap-5 hidden">
+            <h3 class="font-bold text-black">Thanks for Subscribing</h3>
+            <div id="welcome-text"></div>
+            <button id="logout" class="w-[70%] h-[40px] border border-transparent bg-black text-white rounded-lg">Logout</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
